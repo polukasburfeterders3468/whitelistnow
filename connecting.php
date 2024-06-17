@@ -24,7 +24,7 @@ include_once 'functions.php';
       // Get all elements with class="tabcontent" and hide them
       tabcontent = document.getElementsByClassName("tabcontent");
       for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "nonee";
+        tabcontent[i].style.display = "none";
       }
 
       // Get all elements with class="tablinks" and remove the class "active"
